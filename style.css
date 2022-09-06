@@ -1,13 +1,13 @@
 body{
-  background-color: #4c00ff;
-  color: #ff00ea;
+  background-color: #5D14A6;
+  color: #7CF227;
   font-family: Oswald, sans-serif;
   font-size: 20px;
   text-transform: uppercase;
 }
 
 table {
-  background-color: #4c00ff;
+  background-color: #5D14A6;
   cursor:pointer;
   border-collapse: collapse;
 }
@@ -57,7 +57,6 @@ table tr th:last-child {
   font-size:40px;
 }
 #details{
-  diplay:flex;
   flex-wrap:wrap;
 }
 #accordion{
@@ -92,7 +91,6 @@ h1 {
 .placeholder {
   clear: both;
   width: 100%;
-  heigth: 20px;
 }
 
 .down-dots .fa,
@@ -116,7 +114,7 @@ h1 {
 }
 
 .fa-stop-circle {
-  color: #0059ff;
+  color: #091E26;
 }
 
 #result {
