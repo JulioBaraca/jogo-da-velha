@@ -158,7 +158,7 @@ $("td").click(function(e){
           $(convertValueToDiv(value-1) + " .center-space").html(userChoice);
           board[value-1]=game.minPlayer;
           if(game.won(game.minPlayer,board)){
-           $("#result").text("You win");
+           $("#result").text("Você ganhou! Parabéns!");
            $("#anotherGame").css("display","block");
           }
           else if(game.isTie(board)){
@@ -181,7 +181,7 @@ function delayComputerMove(){
   $(convertValueToDiv(move) + " .center-space").html(computerChoice);
   setTimeout(function(){currentTurn="user";},0);
   if(game.won(game.maxPlayer,board)){
-    $("#result").text("Computer wins");
+    $("#result").text("A IA venceu");
     $("#anotherGame").css("display","block");
   }
   else if(game.isTie(board)){
